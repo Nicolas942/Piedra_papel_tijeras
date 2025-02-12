@@ -13,11 +13,11 @@ if usu >= 4:
     print("No valido")
 else:
     if usu == 1:
-        print("Elegiste: piedra")
+        print("Tú elegiste: piedra")
     elif usu == 2:
-        print("Elegiste: papel")
+        print("Tú elegiste: papel")
     else:
-        print("Elegiste: tijeras")
+        print("Tú elegiste: tijeras")
 
     if maq == 1:
         print("La maquina eligio: piedra")
