@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="aIsZIszX3Dg7gbra_vJY" name="Página-1">
-        <mxGraphModel dx="3253" dy="475" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3293" dy="457" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -381,6 +381,25 @@
                     <mxGeometry width="50" height="50" relative="1" as="geometry">
                         <mxPoint x="-870" y="1590" as="sourcePoint"/>
                         <mxPoint x="-870" y="1780" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="118" value="" style="endArrow=none;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="74">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="-1790" y="1420" as="sourcePoint"/>
+                        <mxPoint x="-1550" y="1780" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="-1900" y="1260"/>
+                            <mxPoint x="-1890" y="1780"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="119" value="" style="endArrow=none;html=1;entryX=0.583;entryY=0.838;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="56">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="200" y="1780" as="sourcePoint"/>
+                        <mxPoint x="370" y="940" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="530" y="1780"/>
+                        </Array>
                     </mxGeometry>
                 </mxCell>
             </root>
