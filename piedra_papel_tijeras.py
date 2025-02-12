@@ -28,7 +28,11 @@ else:
 
     if usu == maq:
         print("empate")
-    elif (usu == 2 and maq == 1) or (usu == 3 and maq == 2) or (usu == 1 and maq == 3):
+    elif usu == 2 and maq == 1:
+        print("Ganaste")
+    elif usu == 3 and maq == 2: 
+        print("Ganaste")
+    elif usu == 1 and maq == 3:
         print("Ganaste")
     else:
         print("Perdiste")
