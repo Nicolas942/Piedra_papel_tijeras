@@ -1,38 +1,51 @@
+# importamos la libreria random
 import random
 
-print("-----------------------")
-print("1)Piedra")
-print("2)papel")
-print("3)Tijeras")
-print("-----------------------")
+print("-------------------------------")
+print("--- Piedra, papel y tijeras ---")
+print("-------------------------------")
+print("1. Piedra")
+print("2. Papel")
+print("3. Tijeras")
+print("-------------------------------")
 
-usu = int(input("Ingrese el número correspondiente a su decisión: "))
-maq = random.randint(1,3)
+# input
+usuario =int(input("Digite la opción deseada: "))
 
-if usu >= 4:
-    print("No valido")
+# processing
+maquina = random.randint(1,3)
+
+if usuario < 1 or usuario > 4:
+    print("Por favor juegue nuevamente")
+    r = "Opción no válida."
 else:
-    if usu == 1:
-        print("Tú elegiste: piedra")
-    elif usu == 2:
-        print("Tú elegiste: papel")
+    # el usuario escogió una opción válida
+    if maquina == 1:
+        if usuario == 1:
+            r = "Empate"
+        elif usuario == 2:
+            r = "Ganaste"
+        else:
+            r = "Perdiste"
+    elif maquina == 2:
+        if usuario == 1:
+            r = "Perdiste"
+        elif usuario == 2:
+            r = "Empate"
+        else:
+            r = "Ganaste"
     else:
-        print("Tú elegiste: tijeras")
+        if usuario == 1:
+            r = "Ganaste"
+        elif usuario == 2:
+            r = "Perdiste"
+        else:
+            r = "Empate"
 
-    if maq == 1:
-        print("La maquina eligio: piedra")
-    elif maq == 2:
-        print("La maquina eligio: papel")
-    else:
-        print("La maquina eligio: tijeras")
-
-    if usu == maq:
-        print("empate")
-    elif usu == 2 and maq == 1:
-        print("Ganaste")
-    elif usu == 3 and maq == 2: 
-        print("Ganaste")
-    elif usu == 1 and maq == 3:
-        print("Ganaste")
-    else:
-        print("Perdiste")
+# salida
+print("-------------------------------")
+print("---------Resultado ------------")
+print("--- " + r + " ----")
+print("Usuario: " + str(usuario))
+print("Máquina: " + str(maquina))
+print("-------------------------------")      
